@@ -152,7 +152,7 @@ a.hovertext:hover::after, a.hovertext:focus::after {
     opacity: 1.0;
   }
 
-@media screen  and (max-width:1200px) {
+@media (max-width:1200px) {
     *{
         box-sizing: border-box;
     }
@@ -258,7 +258,7 @@ a.hovertext:hover::after, a.hovertext:focus::after {
 }
     
 
-    @media screen and (min-width: 750px){
+    @media  (max-width: 950px){
         *{
             box-sizing: border-box;
         }
@@ -271,21 +271,73 @@ a.hovertext:hover::after, a.hovertext:focus::after {
             width: 100%;
         }
 
-        .cont img{
-            height:300px;
-            width:300px;
+        .conat img{
+            height:400px;
+            width:100%;
+            margin:0 auto;
         }
 
         .memories-cont p,h2{
-            font-size: 14px;
+            font-size: 16px;
             color: black;
             
             }
+        .memories-cont img{
+            width:60%;
+            margin: 0 auto;
+        }
+
+
+        .offering{
+     
+            height:30%;
+            margin-top: 450px;
+            height:auto;
+            border:20px solid;
+            
+            
+            
+            
+        }
+        
+        .offering-text {
+            color:white; 
+            background-color: black;
+            text-align: center;
+            
+        }
+        
+        .ho{
+            display: column;
+            flex-wrap: wrap;
+            margin-left: 100px
+        }
+        .offering img{
+            height:200px;
+            width:200px;
+            margin: 10px;
+            
+              
+        }
+        
+        .offering-text  p{
+            color: blanchedalmond;
+            font-size: 18px;
+        }
+        
+        h2{
+            
+            font-size: 24px;
+            color: burlywood;
+            font-weight: bold;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    
 
     }
 
 
-@media only screen and (max-width:600px) and (min-width:400px){
+@media only screen and (max-width:800px) and (min-width:400px){
     *{box-sizing: border-box;
     }
 

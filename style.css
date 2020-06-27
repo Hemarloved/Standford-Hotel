@@ -232,6 +232,10 @@ html{
       transform: scale(0.9);
   }
 
+
+
+
+
   @media(min-width:400px) {
     *{
         box-sizing: border-box;
